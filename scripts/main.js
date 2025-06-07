@@ -174,5 +174,10 @@ muteButton.addEventListener('click', () => {
   muteButton.textContent = audioPlayer.muted ? '🔇' : '🔊';
 });
 
+document.getElementById('menuToggle').addEventListener('click', function () {
+  const navbar = document.getElementById('navbar');
+  navbar.classList.toggle('active');
+});
+
 
 });
